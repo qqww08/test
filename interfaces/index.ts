@@ -25,7 +25,7 @@ export interface DeathInterface {
   death_type_concept_id: string;
   person_id: string;
 }
-export interface Person {
+export interface PersonInterface {
   birth_datetime: string;
   care_site_id: string;
   day_of_birth: string;

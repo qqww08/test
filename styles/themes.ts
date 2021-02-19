@@ -21,8 +21,8 @@ Object.keys(sizes).reduce((acc, label: string) => {
 }, media);
 
 const color = {
-  blue: "#2054ae",
-  pink: "#c43683",
+  grayBold: "#8b8b8b",
+  grayNormal: "#d0d0d0",
   black: "#24272a",
 };
 

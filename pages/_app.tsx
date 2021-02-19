@@ -1,15 +1,10 @@
 import App, { AppInitialProps } from "next/app";
 import React from "react";
-import { WithSagaTaskStore } from "../interfaces";
 import GlobalStyles from "../styles/global-styles";
 import { ThemeProvider } from "../styles/themed-components";
 import theme from "../styles/themes";
-
-interface MyAppProps {
-  store: WithSagaTaskStore;
-}
-
-class MyApp extends App<MyAppProps, {}> {
+import "@trendmicro/react-paginations/dist/react-paginations.css";
+class MyApp extends App {
   static async getInitialProps({
     Component,
     ctx,
