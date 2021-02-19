@@ -1,5 +1,5 @@
-import reset from 'styled-reset';
-import { createGlobalStyle, css } from 'styled-components';
+import reset from "styled-reset";
+import { createGlobalStyle, css } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   ${reset}
@@ -21,27 +21,7 @@ const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5, h6{
     font-family:'Maven Pro', sans-serif;
   }
-  /* 웹앱으로 안에 들어갈시 필수로 넣어야함 */
-  select,input {
-    border-style:none;
-    background-color:transparent;
-    border-radius: 0;
-    appearance:none;
-    -moz-appearance:none;
-   -webkit-appearance:none;
-  }
-  /*********************************/
-  @media only screen and (max-width: 768px) {
-    body {
-      font-size: 12px;
-    }
-  }
-
-  @media only screen and (max-width: 576px) {
-    body {
-      font-size: 10px;
-    }
-  }
+ 
 `;
 // Background center
 export const BgCover = css`
@@ -108,8 +88,8 @@ export const Threeline = css`
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
 `;
-export const px2rem = px => {
+export const px2rem = (px) => {
   const rem = 72;
-  return px / rem + 'rem';
+  return px / rem + "rem";
 };
 export default GlobalStyle;
