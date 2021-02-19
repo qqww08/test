@@ -1,20 +1,25 @@
-#NextJS Boilerplate
+``` bash
+#cmd-json
+/utils/lib/cmd-json/ 에 데이터를 넣어주셔야합니다. 
 
-Features
-- nextjs 10,
-- typescript,
-- redux,
-- redux-saga,
-- styled-components,
-- axios,
-- prettierrc
-- eslint,
-- js-cookie,
-- webpack
-- webpack Compression 
+# install dependencies
+ npm install
 
-Feature/scss
-- scss
+# start localhost:3000
+ npm run dev
+``` 
 
-Feature/i18n
-- i18n
+##우선순위
+1. components 구조
+2. 타입 정리
+3. UI/UX
+4. 라이브러리
+
+###프로젝트 구조
+#### components/ 컴포넌트
+#### hook/ custom hook
+#### interface/ type 정리
+#### pages/ page
+#### styles/ css
+#### utils/ lib
+
